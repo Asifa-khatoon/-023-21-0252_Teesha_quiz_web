@@ -15,7 +15,7 @@ const HeroSection =()=>{
         <div className="bg-color">
             <div className="container py-2">
 
-                <img src={image2} alt="" />
+                <img className="w-100" src={image2} alt="" />
             </div>
 
 
