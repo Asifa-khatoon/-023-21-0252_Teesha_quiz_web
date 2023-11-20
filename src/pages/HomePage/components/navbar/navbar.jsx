@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../../../assets/images/footer-logo.svg.svg"
 import heroimg from "../../../../assets/images/div.svg"
 
+import image1 from "../../../../assets/images/div (1).svg"
+
 // images
 
 
@@ -41,12 +43,17 @@ const Navbar=()=>{
         <p class="lead">World-class companies use Writealy <br/> AI writing platform to unlock <br/> brainstorming for publishing a book.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
          
-          <button type="button" class="btn btn-outline-dark text-black btn-lg px-4 rounded-pill">requist a demo </button>
-          <button type="button" class="btn border-dark btn-lg px-5 rounded-pill me-md-2 btn1">try free </button>
+        <button type="button" class="btn btn-outline-dark px-4  fw-bold rounded-pill fw-bold"> request a demo </button>
+          <button type="button" class="btn border-dark btn-lg px-5 rounded-pill me-md-2 btn1 text-white fw-bold">try free </button>
         </div>
       </div>
     </div>
+   
   </div>
+  <div className=""> 
+
+<img className="w-100" src={image1} alt="" />
+</div>
   </div>
 
         </>
