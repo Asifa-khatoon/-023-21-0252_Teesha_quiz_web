@@ -12,7 +12,7 @@ const Navbar=()=>{
 
  <div class="bg-color">
 
-    <div className="container py-2"> 
+    <div className="container pt-2"> 
     <header class="d-flex flex-wrap justify-content-center ">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
        <img width={50} src={logo}/>
@@ -25,7 +25,7 @@ const Navbar=()=>{
         <li class="nav-item"><a href="#" class="nav-link text-black  fw-bold">Pricing</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-black  fw-bold">customer</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-black  fw-bold">resource</a></li>
-        <button type="button" class="btn btn-outline-dark px-4  fw-bold">sign in </button>
+        <button type="button" class="btn btn-outline-dark px-4  fw-bold rounded-pill">sign in </button>
       </ul>
     </header>
     </div>
